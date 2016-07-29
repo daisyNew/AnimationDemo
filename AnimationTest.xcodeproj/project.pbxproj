@@ -13,6 +13,8 @@
 		38B766EC1D49A356004E717B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B766EA1D49A356004E717B /* Main.storyboard */; };
 		38B766EE1D49A356004E717B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B766ED1D49A356004E717B /* Assets.xcassets */; };
 		38B766F11D49A356004E717B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B766EF1D49A356004E717B /* LaunchScreen.storyboard */; };
+		38B766FB1D49A53A004E717B /* DNScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B766FA1D49A53A004E717B /* DNScrollViewController.m */; };
+		38B766FE1D49A65C004E717B /* DNScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B766FD1D49A65C004E717B /* DNScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		38B766ED1D49A356004E717B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38B766F01D49A356004E717B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38B766F21D49A356004E717B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B766F91D49A53A004E717B /* DNScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNScrollViewController.h; sourceTree = "<group>"; };
+		38B766FA1D49A53A004E717B /* DNScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNScrollViewController.m; sourceTree = "<group>"; };
+		38B766FC1D49A65C004E717B /* DNScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DNScrollView.h; sourceTree = "<group>"; };
+		38B766FD1D49A65C004E717B /* DNScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DNScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 				38B766E51D49A356004E717B /* AppDelegate.m */,
 				38B766E71D49A356004E717B /* ViewController.h */,
 				38B766E81D49A356004E717B /* ViewController.m */,
+				38B766F81D49A4CE004E717B /* class */,
 				38B766EA1D49A356004E717B /* Main.storyboard */,
 				38B766ED1D49A356004E717B /* Assets.xcassets */,
 				38B766EF1D49A356004E717B /* LaunchScreen.storyboard */,
@@ -77,6 +84,17 @@
 				38B766E21D49A356004E717B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38B766F81D49A4CE004E717B /* class */ = {
+			isa = PBXGroup;
+			children = (
+				38B766F91D49A53A004E717B /* DNScrollViewController.h */,
+				38B766FA1D49A53A004E717B /* DNScrollViewController.m */,
+				38B766FC1D49A65C004E717B /* DNScrollView.h */,
+				38B766FD1D49A65C004E717B /* DNScrollView.m */,
+			);
+			path = class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38B766FE1D49A65C004E717B /* DNScrollView.m in Sources */,
 				38B766E91D49A356004E717B /* ViewController.m in Sources */,
 				38B766E61D49A356004E717B /* AppDelegate.m in Sources */,
 				38B766E31D49A356004E717B /* main.m in Sources */,
+				38B766FB1D49A53A004E717B /* DNScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
